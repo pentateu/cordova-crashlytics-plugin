@@ -27,6 +27,8 @@
     <license>Apache 2.0</license>
     <keywords>cordova,crashlytics</keywords>
 
+    <preference name="API_KEY" />
+
     <js-module src="www/crashlytics.js" name="crashlytics">
         <clobbers target="navigator.crashlytics" />
     </js-module>
